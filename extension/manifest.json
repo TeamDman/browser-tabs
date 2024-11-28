@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Group Info",
+    "version": "1.0",
+    "permissions": [
+        "tabGroups",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo-16x16.png",
+            "32": "logo-32x32.png",
+            "48": "logo-48x48.png",
+            "64": "logo-64x64.png",
+            "128": "logo-128x128.png"
+        }
+    },
+    "icons": {
+        "16": "logo-16x16.png",
+        "32": "logo-32x32.png",
+        "48": "logo-48x48.png",
+        "64": "logo-64x64.png",
+        "128": "logo-128x128.png",
+        "256": "logo-256x256.png",
+        "512": "logo-512x512.png",
+        "1024": "logo-1024x1024.png"
+    }
+}

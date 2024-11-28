@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabs in Markdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            width: 500px;
+            height: 500px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: calc(100% - 40px);
+            font-family: monospace;
+            font-size: 14px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Open Tabs in Markdown</h1>
+    <textarea id="tabsTextarea" readonly>Loading...</textarea>
+    <script src="popup.js"></script>
+</body>
+</html>
